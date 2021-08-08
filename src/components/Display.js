@@ -9,10 +9,9 @@ const Display = ({ pokeData}) => {
                 Number: {pokeData.id}
             </div>
             <div>
-                {pokeData.map(t=> {
+                {/* {pokeData.map(t=> {
                     const type = t.type.name;
-                    return type
-                })}
+                    return type */}
             </div>
             
             {/* // pokeData.length > 0 ? (

@@ -1,7 +1,7 @@
 import {useState} from 'react'
 import PokemonImage from './PokemonImage'
 
-const LeftPanel = ({ onSearch }) => {
+const LeftPanel = ({ onSearch, pokeData }) => {
     const [search, setSearch] = useState('')
 
     const onSubmit = (e) => {
@@ -19,7 +19,7 @@ const LeftPanel = ({ onSearch }) => {
 
     return (
         <div className="panel left-panel">
-        <PokemonImage />
+        <PokemonImage pokeData={pokeData}/>
         <form 
             className='search-form' 
             onSubmit={onSubmit}>

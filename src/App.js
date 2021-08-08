@@ -25,7 +25,7 @@ const subSearch = async (search) => {
 }
   return (
     <div className="pokedex">
-      <LeftPanel onSearch={subSearch}/>
+      <LeftPanel onSearch={subSearch} pokeData={pokeData}/>
       <RightPanel pokeData={pokeData} />
     </div>
   );
