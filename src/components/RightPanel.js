@@ -1,9 +1,9 @@
 import Display from './Display'
 
-const RightPanel = ({ pokeData }) => {
+const RightPanel = ({ pokeData, flavorText }) => {
     return (
         <div className="panel right-panel">
-            <Display pokeData={pokeData} />
+            <Display pokeData={pokeData} flavorText={flavorText} />
         </div>
     )
 }

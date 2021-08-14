@@ -109,9 +109,25 @@ body {
 
 .pokemon-name{
   text-transform: capitalize;
+  font-size: x-large;
+  font-weight: bolder;
+  margin-bottom: 5px;
 }
 
+.stat-header{
+  font-size: larger;
+  text-decoration: underline;
+  margin-top: 4px;
+}
 
+.stat-body{
+  margin-top: 3px;
+}
+
+.flavor-text{
+  margin-top: 10px;
+  font-style: italic;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
